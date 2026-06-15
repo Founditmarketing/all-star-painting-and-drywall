@@ -82,7 +82,7 @@ module.exports = async (req, res) => {
     return res.end();
   }
 
-  const to   = process.env.CONTACT_TO_EMAIL   || "0nleiter@gmail.com";
+  const to   = process.env.CONTACT_TO_EMAIL   || "owen@founditmarketing.com";
   const from = process.env.CONTACT_FROM_EMAIL || "AllStar Painting <onboarding@resend.dev>";
 
   const subject = `New lead from allstarpaintinganddrywall.com — ${name}`;
